@@ -17,12 +17,12 @@ Dependencies : node(javascript), python3(python), gcc(c++), firefox(html)
 4. chmod +777 *
 5. Now add the below keybindings to your vimrc \
     nnoremap \<F7\> :!cp ~/Desktop/templates/template.%:e %<Enter> \
-    nnoremap \<F8\> :w <bar> !clear && g++ -O2 -Wall -o  %:r.out % -std=c++17<Enter> \
+    nnoremap \<F8\> :w <bar> !clear && g++ -O2 -Wall -o  %:r.out % -std=c++17\<Enter\> \
     nnoremap \<F9\> :!clear && echo %:e > ~/.vim/vide/filetype.txt && echo %:t > ~/.vim/vide/tail.txt &&  echo %:p:h > ~/.vim/vide/head.txt && echo %:p > ~/.vim/vide/filepath.txt && python3 ~/.vim/vide/run.py<Enter>
 6. If you want to load templates to a file currently open in vim then you could create a templates directory on your desktop and then create a template file you wish to load. You could also use my templates directory but make sure the templates have read permissions.
 7. Now you're good to go. If you face any erros then they might be due to file permissions and directory cloned into your custom path so update vimrc and "vide/run.py" with your custom file locations.
 
-Note: Make sure to compile c++ programs using <F8> before running them by pressing <F9>
+Note: Make sure to compile c++ programs using \<F8\> before running them by pressing \<F9\>
 
 ### PEACE!
 If you have any suggestions or want me to add support for other languages then let me know.
