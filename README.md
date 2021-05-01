@@ -3,7 +3,7 @@
 Currently vide supports javascript, python, c++, ruby, html(outputs result in firefox), txt(cats txt file).
 
 ## Dependencies
-node for js
+node for js "\n"
 python3 for py
 firefox for html
 ruby for rb
