@@ -7,7 +7,7 @@ node for js \
 python3 for py \
 firefox for html \
 ruby for rb \
-gcc for c++ \
+gcc for c++ 
 
 ## Installation
 
